@@ -15,7 +15,7 @@ https://github.com/ktastic7/Universal-Missile-Regeneration
 
 Starsector forum thread:
 
-Will be added after the initial GitHub release is published.
+https://fractalsoftworks.com/forum/index.php?topic=36118
 
 ---
 
