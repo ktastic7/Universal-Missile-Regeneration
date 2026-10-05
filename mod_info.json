@@ -1,0 +1,12 @@
+{
+  "id": "universal_missile_regeneration",
+  "name": "Universal Missile Regeneration",
+  "author": "kemptastic",
+  "version": "1.0.0",
+  "description": "Regenerates ammunition for eligible finite-ammo missile launchers while preserving authored firing behavior, with broad mod compatibility, configurable timing, and Missile Autoloader coexistence.",
+  "gameVersion": "0.98a-RC8",
+  "jars": [
+    "jars/UniversalMissileRegeneration.jar"
+  ],
+  "modPlugin": "umr.UMRModPlugin"
+}

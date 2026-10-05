@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest a UMR improvement or new capability
+title: "[Feature] "
+body:
+  - type: input
+    id: umr_version
+    attributes:
+      label: UMR version
+  - type: textarea
+    id: problem
+    attributes:
+      label: Player problem / use case
+      description: What problem or limitation are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested behavior
+      description: Describe the outcome you would like. Implementation suggestions are welcome but not required.
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility/balance considerations
+      description: Are there mods, weapon classes, save behavior, AI behavior, or balance concerns this could affect?
+  - type: checkboxes
+    id: expectation
+    attributes:
+      label: Planning
+      options:
+        - label: I understand that a feature request is not a commitment or release-date promise.
+          required: true

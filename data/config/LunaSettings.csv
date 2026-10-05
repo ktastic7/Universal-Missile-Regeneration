@@ -1,0 +1,3 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+umr_hide_missile_autoloader,Hide Missile Autoloader,Boolean,true,,Hide Missile Autoloader from the ordinary refit add-hullmod picker while UMR is enabled.,,,Compatibility
+umr_suppress_npc_random_missile_autoloader,Suppress NPC Random Missile Autoloader,Boolean,true,,Prevent provably random NPC autofit copies of Missile Autoloader while preserving authored built-ins/permanent/S-mod/ambiguous variants.,,,Compatibility

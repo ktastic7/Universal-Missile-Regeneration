@@ -1,0 +1,41 @@
+# Java/build output
+build/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Local dependency/reference JARs
+/lib/
+libs/
+references/
+starfarer.api.jar
+starfarer_obf.jar
+log4j-1.2.9.jar
+json.jar
+lwjgl.jar
+lwjgl_util.jar
+LunaLib.jar
+
+# Local runtime/log captures
+starsector.log
+UniversalMissileRegeneration.log*
+starsector-core*.zip
+
+# Internal project governance/history is not part of public source
+Development Stage Archive/
+Archive/
+Runtime Evidence/
+Build Artifacts/
+Working/
+
+# Generated UMR binary (distributed through GitHub Releases)
+jars/UniversalMissileRegeneration.jar

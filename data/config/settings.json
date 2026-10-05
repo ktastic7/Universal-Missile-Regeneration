@@ -1,0 +1,19 @@
+{
+  "plugins": {
+    "umr_phase5c_regeneration": "umr.UMRCombatRegenerationPlugin"
+  },
+  "umrDevelopmentVersion": "1.0.0",
+  "umrDevelopmentPhase": "release-1.0.0",
+  "umrDevelopmentCore": "11-validated",
+  "umrThirdPartyGameplayEnabled": true,
+  "umrBaseFullMagTargetSeconds": 90.0,
+  "umrSingleAmmoReductionSeconds": 20.0,
+  "umrMediumAdditionSeconds": 25.0,
+  "umrLargeAdditionSeconds": 45.0,
+  "umrSafetyFloorEnabled": true,
+  "umrSafetyMultiplier": 1.4,
+  "umrLoggingLevel": "SUMMARY",
+  "umrEnableNonMissileLimitedAmmo": false,
+  "umrPerformanceTelemetryEnabled": false,
+  "umrAiTelemetryEnabled": false
+}

@@ -1,0 +1,71 @@
+name: Compatibility report
+description: Report a specific modded weapon or mod interaction
+title: "[Compatibility] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For weapon-level compatibility reports, VERBOSE logging is preferred when practical.
+  - type: input
+    id: umr_version
+    attributes:
+      label: UMR version
+    validations:
+      required: true
+  - type: input
+    id: starsector_version
+    attributes:
+      label: Starsector version
+    validations:
+      required: true
+  - type: input
+    id: source_mod
+    attributes:
+      label: Source mod and version
+    validations:
+      required: true
+  - type: input
+    id: weapon
+    attributes:
+      label: Weapon name / weapon ID
+      description: Exact weapon ID is ideal.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happens?
+      description: Explain the authored behavior, what UMR did, and why it appears incompatible.
+    validations:
+      required: true
+  - type: textarea
+    id: config
+    attributes:
+      label: UMR configuration changes
+      description: Include blacklist/override/settings changes. Say "none" if unchanged.
+    validations:
+      required: true
+  - type: dropdown
+    id: logging
+    attributes:
+      label: UMR logging level used
+      options:
+        - SUMMARY
+        - VERBOSE
+        - TRACE
+        - OFF
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / supporting evidence
+      description: Attach UniversalMissileRegeneration.log and starsector.log when possible.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Log privacy
+      options:
+        - label: I inspected attached logs for filesystem/user-name information I do not want to share.
+          required: true
