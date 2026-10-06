@@ -4,7 +4,7 @@ All notable public changes to Universal Missile Regeneration are documented here
 
 The pre-1.0 internal development chronology is intentionally not reproduced in this public changelog.
 
-## 1.0.0
+## Version 1.0.0
 
 ### Added
 
