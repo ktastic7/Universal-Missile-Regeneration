@@ -2,7 +2,7 @@
 
 **Universal Missile Regeneration (UMR)** gives eligible finite-ammo missile launchers a combat-time ammunition regeneration system while preserving their normal firing behavior.
 
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 **Author:** kemptastic  
 **For:** Starsector 0.98a-RC8  
 **Required mod dependencies:** None  
@@ -363,7 +363,7 @@ File:
 data/config/settings.json
 ```
 
-The following are the effective public/diagnostic controls in 1.0.0.
+The following are the effective public/diagnostic controls in 1.0.1.
 
 ## `umrThirdPartyGameplayEnabled`
 
@@ -512,11 +512,11 @@ false
 
 This is a reserved/deferred placeholder.
 
-**Finite-ammo non-missile regeneration is not a supported 1.0.0 feature.**
+**Finite-ammo non-missile regeneration is not a supported 1.0.1 feature.**
 
 Leave this setting `false`.
 
-Changing it to `true` should not be expected to activate functional non-missile regeneration in 1.0.0.
+Changing it to `true` should not be expected to activate functional non-missile regeneration in 1.0.1.
 
 ---
 
@@ -734,7 +734,7 @@ These fields have the same basic timing/packet meaning as the local override fil
 
 # Version Checker
 
-UMR 1.0.0 includes Version Checker-compatible metadata.
+UMR 1.0.1 includes Version Checker-compatible metadata.
 
 **Version Checker is optional.** UMR does not require it to run.
 
@@ -757,7 +757,7 @@ The online master is hosted in the public GitHub repository.
 
 # Save compatibility and removal
 
-UMR 1.0.0 does **not require a new campaign**.
+UMR 1.0.1 does **not require a new campaign**.
 
 Release testing covered:
 
@@ -961,7 +961,7 @@ If investigating performance, keep in mind that `VERBOSE` and especially `TRACE`
 
 ## Finite-ammo non-missile support
 
-A future opt-in system for finite-ammo non-missile weapons has been explored but is **not included in UMR 1.0.0**.
+A future opt-in system for finite-ammo non-missile weapons has been explored but is **not included in UMR 1.0.1**.
 
 There is no promised release date.
 
@@ -1007,7 +1007,7 @@ See:
 
 [BUILDING.md](BUILDING.md)
 
-UMR's 1.0.0 release is promoted from a baseline compiled with `javac --release 8` against the Starsector 0.98a-RC8 API.
+UMR 1.0.1 uses the same validated gameplay JAR/source baseline as 1.0.0, compiled with `javac --release 8` against the Starsector 0.98a-RC8 API.
 
 The game itself uses Java 17 on this Starsector baseline.
 

@@ -4,6 +4,22 @@ All notable public changes to Universal Missile Regeneration are documented here
 
 The pre-1.0 internal development chronology is intentionally not reproduced in this public changelog.
 
+## Version 1.0.1
+
+### Added
+
+- Added a custom Universal Missile Regeneration icon for the LunaLib settings menu and compatible mod managers such as TriOS.
+
+### Changed
+
+- Added Starsector forum integration metadata and support links.
+- Updated changelog version-heading formatting for improved TriOS parsing and display.
+
+### Notes
+
+- No gameplay changes.
+- Production Java/gameplay behavior is unchanged from 1.0.0.
+
 ## Version 1.0.0
 
 ### Added

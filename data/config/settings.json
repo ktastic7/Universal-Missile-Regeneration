@@ -2,8 +2,8 @@
   "plugins": {
     "umr_phase5c_regeneration": "umr.UMRCombatRegenerationPlugin"
   },
-  "umrDevelopmentVersion": "1.0.0",
-  "umrDevelopmentPhase": "release-1.0.0",
+  "umrDevelopmentVersion": "1.0.1",
+  "umrDevelopmentPhase": "release-1.0.1",
   "umrDevelopmentCore": "11-validated",
   "umrThirdPartyGameplayEnabled": true,
   "umrBaseFullMagTargetSeconds": 90.0,
