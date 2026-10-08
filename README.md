@@ -2,7 +2,7 @@
 
 **Universal Missile Regeneration (UMR)** gives eligible finite-ammo missile launchers a combat-time ammunition regeneration system while preserving their normal firing behavior.
 
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 **Author:** kemptastic  
 **For:** Starsector 0.98a-RC8  
 **Required mod dependencies:** None  
