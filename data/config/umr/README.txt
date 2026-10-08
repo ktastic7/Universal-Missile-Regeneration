@@ -1,4 +1,4 @@
-Universal Missile Regeneration 1.0.0 — configuration files
+Universal Missile Regeneration 1.0.1 — configuration files
 
 Full player documentation is in the mod root README.md.
 
@@ -43,4 +43,4 @@ Notes:
 - For weapon-level compatibility data, use VERBOSE.
 - TRACE is intended for targeted deep investigation.
 - LunaLib is optional.
-- Finite-ammo non-missile regeneration is not a supported 1.0.0 feature.
+- Finite-ammo non-missile regeneration is not a supported 1.0.1 feature.
